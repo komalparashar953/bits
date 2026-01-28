@@ -62,10 +62,3 @@ A real-time auction platform built with Node.js, Socket.io, and React.
 
 The platform relies on Node.js's single-threaded event loop for write operations. The `placeBid` function is synchronous, ensuring that no two requests can modify the auction state simultaneously. This acts as a natural mutex for in-memory operations.
 
-## Level 1 Challenge Status
-
-- [x] Backend (Node + Socket.io)
-- [x] Frontend (React)
-- [x] Race Condition Handling
-- [x] Time Synchronization
-- [x] Dockerfile
