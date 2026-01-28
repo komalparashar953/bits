@@ -61,4 +61,3 @@ A real-time auction platform built with Node.js, Socket.io, and React.
 ## Race Condition Strategy
 
 The platform relies on Node.js's single-threaded event loop for write operations. The `placeBid` function is synchronous, ensuring that no two requests can modify the auction state simultaneously. This acts as a natural mutex for in-memory operations.
-
